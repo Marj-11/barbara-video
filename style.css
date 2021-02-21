@@ -504,6 +504,8 @@ a {
 
 .container #explain_section .second_sub_container .image_container img {
   min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: auto;
 }
 
