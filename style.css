@@ -483,6 +483,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 600px) {
@@ -503,10 +504,8 @@ a {
 }
 
 .container #explain_section .second_sub_container .image_container img {
-  min-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .container #method_section {
