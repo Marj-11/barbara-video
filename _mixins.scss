@@ -1,0 +1,30 @@
+// Small to medium tablet
+
+@mixin sm() {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
+// Large tablet to laptop
+
+@mixin md() {
+    @media (min-width: 960px) {
+        @content;
+    }
+}
+// Desktop
+
+@mixin lg() {
+    @media (min-width: 1364px) {
+        @content;
+    }
+}
+// 4k and ultra-wide
+
+@mixin xl() {
+    @media (min-width: 1804px) {
+        @content;
+    }
+}
+

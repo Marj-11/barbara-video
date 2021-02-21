@@ -1,0 +1,67 @@
+@mixin scroll_mouse {
+	.icon-scroll {
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		width: 1em;
+		height: 1.125em;
+		transform: translateX(-50%) scale(2);
+	}
+
+	.icon-arrows::after,
+	.icon-arrows::before {
+		content: "";
+	}
+	.icon-arrows::after,
+	.icon-arrows::before {
+		cursor: pointer;
+		display: block;
+		width: 0.315em;
+		height: 0.315em;
+		border-right: 1px solid rgba(255, 255, 255, 0.8);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+		margin: 0 0 0.125em 0.315em;
+		transform: rotate(45deg);
+		animation: mouse-scroll 1s infinite;
+		animation-direction: alternate;
+	}
+	
+
+	.icon-arrows::before {
+		margin-top: 0.315em;
+		animation-delay: 0.1s;
+	}
+
+	.icon-scroll span {
+		animation-delay: 0.2s;
+	}
+
+	.icon-arrows::after {
+		animation-delay: 0.3s;
+	}
+
+	@keyframes mouse-wheel {
+		0% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+
+		100% {
+			opacity: 0;
+			transform: translateY(0.375em);
+		}
+	}
+
+	@keyframes mouse-scroll {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 0.5;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+}
+
