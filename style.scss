@@ -177,12 +177,14 @@ a {
                 height: 100%;
                 @include sm {
                     width: 80%;
+                    height: 100%;
                     align-self: center;
                 }
                 @include md {
                     margin-top: 0px;
                     padding-bottom: 50px;
                     width: 45%;
+                    height: 100%;
                 }
                 img {
                     width: 100%;

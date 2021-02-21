@@ -489,6 +489,7 @@ a {
 @media (min-width: 600px) {
   .container #explain_section .second_sub_container .image_container {
     width: 80%;
+    height: 100%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -500,6 +501,7 @@ a {
     margin-top: 0px;
     padding-bottom: 50px;
     width: 45%;
+    height: 100%;
   }
 }
 
