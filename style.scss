@@ -379,12 +379,15 @@ a {
                         border: solid 1.5px $main_color;
                         outline: none;
                         transition: all 0.4s;
-                        font-size: 13px;
+                        font-size: 14px;
                         padding: 13px 5px;
                         height: 20px;
                         @include md {
                             padding: 20px 10px;
                             height: 25px;
+                            font-size: 18px;
+                        }
+                        @include lg {
                             font-size: 22px;
                         }
                         &:focus {
@@ -402,12 +405,12 @@ a {
                         -ms-transition: all 0.4s;
                         -o-transition: all 0.4s;
                         resize: vertical;
-                        font-size: 13px;
+                        font-size: 14px;
                         @include md {
-                            font-size: 22px;
+                            font-size: 18px;
                         }
                         @include lg {
-                            font-size: 32px;
+                            font-size: 22px;
                         }
 
                         &:focus {

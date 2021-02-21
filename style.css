@@ -808,7 +808,7 @@ a {
   outline: none;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  font-size: 13px;
+  font-size: 14px;
   padding: 13px 5px;
   height: 20px;
 }
@@ -817,6 +817,12 @@ a {
   .container #contact_section .contact form div input {
     padding: 20px 10px;
     height: 25px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1364px) {
+  .container #contact_section .contact form div input {
     font-size: 22px;
   }
 }
@@ -836,18 +842,18 @@ a {
   -ms-transition: all 0.4s;
   -o-transition: all 0.4s;
   resize: vertical;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 @media (min-width: 960px) {
   .container #contact_section .contact form div textarea {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
 @media (min-width: 1364px) {
   .container #contact_section .contact form div textarea {
-    font-size: 32px;
+    font-size: 22px;
   }
 }
 
